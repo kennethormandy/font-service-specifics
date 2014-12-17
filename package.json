@@ -1,0 +1,30 @@
+{
+  "name": "font-service-specifics",
+  "version": "0.0.0",
+  "description": "Look up a font’s service vendor, through its delivery URL.",
+  "homepage": "https://github.com/kennethormandy/font-service-specifics",
+  "repository": "https://github.com/kennethormandy/font-service-specifics.git",
+  "license": "MIT",
+  "main": "src/index.js",
+  "author": "Kenneth Ormandy <kenneth@chloi.io> (http://kennethormandy.com)",
+  "scripts": {
+    "test": "mocha test",
+    "build-js": "browserify src/index.js -s fontServiceSpecifics -o dist/font-service-specifics.js && minify dist/font-service-specifics.js dist/font-service-specifics.js",
+    "build": "npm run build-js"
+  },
+  "keywords": [
+    "type",
+    "typograhpy",
+    "font",
+    "tester"
+  ],
+  "devDependencies": {
+    "browserify": "~6.3.2",
+    "chai": "~1.10.0",
+    "minify": "git://github.com/ianstormtaylor/minify",
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "url": "~0.10.1"
+  }
+}
