@@ -1,6 +1,6 @@
 {
   "name": "font-service-specifics",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Look up a font’s service vendor, through its delivery URL.",
   "homepage": "https://github.com/kennethormandy/font-service-specifics",
   "repository": "https://github.com/kennethormandy/font-service-specifics.git",

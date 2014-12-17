@@ -1,4 +1,4 @@
-/*! font-service-specifics v0.0.0 | MIT License | github.com/kennethormandy/font-service-specifics */
+/*! font-service-specifics v0.1.0 | MIT License | github.com/kennethormandy/font-service-specifics */
 
 if(typeof document === 'undefined') {
   var url = require('url');
