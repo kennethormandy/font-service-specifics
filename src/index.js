@@ -8,6 +8,7 @@ if(typeof document === 'undefined') {
       hostname: {
         var parser = document.createElement('a');
         parser.href = href;
+        console.log(parser.href);
         return parser;
       }
     }
@@ -21,7 +22,8 @@ var urls = {
   'fast.fonts.net': 'Fonts.com',
   'easy.myfonts.net': 'MyFonts',
   'use.typekit.net': 'Typekit',
-  'fonts.typotheque.com': 'Typotheque'
+  'fonts.typotheque.com': 'Typotheque',
+  'f.fontdeck.com': 'Fontdeck'
 };
 
 module.exports = function(cdn) {
