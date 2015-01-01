@@ -25,4 +25,7 @@ describe('checks against url', function(){
   it('should return “undefined” when made up CDN is given', function(){
     chai.assert.equal(fontServiceSpecifics('https://cdn.losttype.com/'), undefined);
   });
+  it('should return “Fontdeck” when Fontdeck WOFF file is given', function(){
+    chai.assert.equal(fontServiceSpecifics('http://f.fontdeck.com/f/1/VzNQMUcwQnAABJrWovDnJ37qcSCRR3btX+BPU/LFbCx0iZQHJh/khKzqRHFS3bthYlDr9P1krdNp3ZLADf4AQ/bxoasA3MX4t6AO6Swkr5E6xtqTUm0gz4lvhIWdbTB5hdDR3YYjt7FeeYSP8NH8TOEdrv7U/7tK4JQ8mHFupVD91j8DyXYu12rb7zqdBPVW7vX8fOdCLdF3NCBegZviTFz0/il4Se2cBnI.woff'), 'Fontdeck');
+  });
 });
